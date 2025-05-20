@@ -17,8 +17,8 @@ Iris flower species prediction using machine learning.
 
 1. Clone the repository
 ```bash
-git clone https://github.com/AntonioDA2004/iris-classifier-api.git
-cd iris-classifier-api
+git clone https://github.com/AntonioDA2004/iris-classifier.git
+cd iris-classifier
 ```
 
 2. Create and activate virtual environment
