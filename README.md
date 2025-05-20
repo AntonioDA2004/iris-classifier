@@ -34,26 +34,19 @@ pip install mlflow flask
 
 ## Usage
 
-1. Start MLflow UI to view experiment tracking (in another terminal)
-```bash
-mlflow ui
-```
-
-2. Train the model
+1. Train the model
 ```bash
 python train.py
 ```
 
-3. Start the Flask server
+2. Start the Flask web server
 ```bash
 python app.py
 ```
 
-4. Make a prediction request
+3. Make a prediction request
 ```powershell
-curl -X POST http://localhost:5001/predict \
-     -H "Content-Type: application/json" \
-     -d '{"features":[5.1,3.5,1.4,0.2]}'
+Invoke-RestMethod -Uri "http://localhost:5001/predict" -Method Post -ContentType "application/json" -Body '{"features":[5.1,3.5,1.4,0.2]}'
 ```
 
 ## Project Structure
