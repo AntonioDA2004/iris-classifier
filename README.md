@@ -12,10 +12,9 @@ Flask API for Iris flower species prediction using machine learning.
 ## Requirements
 
 - Python 3.12
-- Flask
 - scikit-learn
-- pandas
-- numpy
+- mlflow
+- Flask
 
 ## Installation
 
@@ -33,7 +32,7 @@ source env/bin/activate # On Windows: env\Scripts\activate
 
 3. Install dependencies
 ```bash
-pip install scikit-learn pandas mlflow dvc flask
+pip install scikit-learn mlflow flask
 ```
 
 ## Usage
