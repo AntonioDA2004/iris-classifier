@@ -4,10 +4,13 @@ Flask API for Iris flower species prediction using machine learning.
 
 ## Features
 
-- REST API endpoint for Iris flower classification
-- Machine learning model trained on the classic Iris dataset
-- Predicts between three Iris species: Setosa, Versicolor, and Virginica
-- Accepts four flower measurements as input
+- Provides a simple REST API for predicting the species of an Iris flower
+- Uses a machine learning model trained on the well-known Iris dataset
+- Predicts one of three species: Iris Setosa, Iris Versicolor, or Iris Virginica
+- Takes four flower measurements as input: <b>sepal length</b>, <b>sepal width</b>, <b>petal length</b>, and <b>petal width</b>
+- Includes experiment tracking with MLflow, so you can monitor and compare model training runs
+
+
 
 ## Requirements
 
