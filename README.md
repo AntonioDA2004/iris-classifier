@@ -29,7 +29,7 @@ source env/bin/activate # On Windows: env\Scripts\activate
 
 3. Install dependencies
 ```bash
-pip install mlflow flask
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -51,12 +51,14 @@ Invoke-RestMethod -Uri "http://localhost:5001/predict" -Method Post -ContentType
 
 ## Project Structure
 ```
-iris-classifier-api/ 
-├── app.py # Flask application 
-├── train.py # Model training script 
-└── README.md
+iris-classifier-api/
+├── app.py           # Flask application
+├── train.py         # Model training script
+├── requirements.txt # Project dependencies
+└── README.md        # Project documentation
 ```
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. \
+See the [LICENSE](LICENSE) file for more details.
